@@ -1,0 +1,85 @@
+.wrapper{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  ul {
+    
+    list-style-type: none;
+    padding:0px;
+    width:800px;
+  }
+  
+  li:first-child{
+    border-top:0.1px solid grey;
+  }
+  
+  li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:8px 2px;
+    border-bottom:0.1px solid grey;
+  }
+  
+  .imgContainer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:auto;
+  
+  }
+  
+  
+  
+  div.userName{
+    font-size:15px;
+    padding-left:5px;
+   
+  }
+  
+  div.statusGame{
+    font-size:10px;
+     display:flex;
+    align-items:center;
+    
+  }
+  
+  .ion-flash-off{
+  font-size:18px;
+  color:red;
+  padding-left:5px;
+  
+  }
+  
+  .userLogo{
+    
+    width:50px;
+    height:50px;
+  }
+  
+  a{
+    text-decoration:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+  }
+  
+  .btnContainer{
+    display:flex;
+    
+  }
+  
+  .btnFilter{
+    background:green;
+    border:0px;
+    color:white;
+    flex-grow:4;
+    padding:10px;
+  }
+  
+  
+  
