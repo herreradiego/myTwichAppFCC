@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-##myTwichApi
+## myTwichApi
 
 This app fetch Twich TV in order to get user information and what are they streaming while fetch is being performed.
 
